@@ -28,14 +28,14 @@ int dividedbysix(void){						/*1-100中能够被6整除数字之和*/
 }
 
 int PrimeNum(int N){						/*判断输入进来的数字是否是素数*/
-	int i,count=0;							/*定义变量i以及count*/
+	int i,count=0;						/*定义变量i以及count*/
 	
 	for(i=2;i<N;i++){
-		if(N%i==0){							/*当输入的数字N能够整除i时则count自动加一，i从2开始循环到N-1*/
+		if(N%i==0){					/*当输入的数字N能够整除i时则count自动加一，i从2开始循环到N-1*/
 			count++;
 		}
 	}
-	if(count==0){							/*如果count为0，则证明2到N-1的数字都不能整除N，所以N是素数*/ 
+	if(count==0){						/*如果count为0，则证明2到N-1的数字都不能整除N，所以N是素数*/ 
 		printf("这个数为素数");
 	}else{
 		printf("这个数不是素数");
