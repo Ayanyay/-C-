@@ -1,6 +1,6 @@
 程序设计入门——C语言
 
-程序设计入门——C语言 https://www.icourse163.org/course/ZJU-199001
+https://www.icourse163.org/course/ZJU-199001
 
 测验与作业/考试
 
