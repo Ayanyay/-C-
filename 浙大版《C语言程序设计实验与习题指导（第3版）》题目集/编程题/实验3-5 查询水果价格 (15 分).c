@@ -82,3 +82,49 @@ int main()
 
 	return 0;
 }
+
+/*
+#include<stdio.h>
+#include<stdlib.h>	
+#include<time.h>
+
+double fruitCheck(int N)
+{double temp;
+	switch(N){
+		case 1:
+		temp=3.00;
+		return temp;
+		case 2:
+		temp=2.50;
+		return temp;
+		case 3:
+		temp=4.10;
+		return temp;
+		case 4:
+		temp=10.20;
+		return temp;
+		default:
+		temp=0.00;
+		return temp;
+	}
+}
+
+
+int main()
+{
+	int i,N,count;
+	double price,temp;
+	printf("[1] apple\n[2] pear\n[3] orange\n[4] grape\n[0] exit\n");
+	for(i=0;i<5;i++){
+		scanf("%d",&N);
+		if(N==0){
+			break;
+		}
+		price =fruitCheck(N);
+		printf("Price = %lf\n",price);
+		
+	}
+
+	return 0;
+}
+*/
